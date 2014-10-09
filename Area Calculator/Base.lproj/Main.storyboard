@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Area_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zla-Gg-Cb5">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RUV-Bf-kxT">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Width" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwg-Ug-Abb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I45-sB-veb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouZ-rL-nQS">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YZ-aL-ojP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Calculate Area">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J7X-G8-Aw6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7a-RZ-xvh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Fxs-a7-ntA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Fxs-a7-ntA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Fxs-a7-ntA"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ouZ-rL-nQS" secondAttribute="centerX" constant="-0.5" id="2C7-Be-XHG"/>
+                            <constraint firstItem="I45-sB-veb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6md-oF-wuc"/>
+                            <constraint firstItem="RUV-Bf-kxT" firstAttribute="centerY" secondItem="I45-sB-veb" secondAttribute="centerY" constant="1.5" id="7kg-sU-5iC"/>
+                            <constraint firstItem="ouZ-rL-nQS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BJx-j4-pO7"/>
+                            <constraint firstItem="9YZ-aL-ojP" firstAttribute="top" secondItem="RUV-Bf-kxT" secondAttribute="bottom" constant="8" id="BUF-ww-aBQ"/>
+                            <constraint firstItem="F7a-RZ-xvh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OpF-xV-PaL"/>
+                            <constraint firstItem="9YZ-aL-ojP" firstAttribute="centerX" secondItem="ouZ-rL-nQS" secondAttribute="centerX" constant="-0.5" id="Pgg-3E-GUr"/>
+                            <constraint firstItem="Uwg-Ug-Abb" firstAttribute="centerY" secondItem="Zla-Gg-Cb5" secondAttribute="centerY" constant="-1.5" id="Svg-MM-7MS"/>
+                            <constraint firstItem="Uwg-Ug-Abb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="T1x-af-7zN"/>
+                            <constraint firstItem="F7a-RZ-xvh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="YLq-Hu-e8l"/>
+                            <constraint firstItem="Zla-Gg-Cb5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="YWf-RQ-1mI"/>
+                            <constraint firstItem="Zla-Gg-Cb5" firstAttribute="top" secondItem="ouZ-rL-nQS" secondAttribute="bottom" constant="8" id="daX-rU-MuQ"/>
+                            <constraint firstItem="RUV-Bf-kxT" firstAttribute="leading" secondItem="I45-sB-veb" secondAttribute="trailing" constant="8" id="dfQ-Yf-Kpm"/>
+                            <constraint firstItem="Zla-Gg-Cb5" firstAttribute="leading" secondItem="Uwg-Ug-Abb" secondAttribute="trailing" constant="14" id="sIx-HI-fVK"/>
+                            <constraint firstItem="F7a-RZ-xvh" firstAttribute="top" secondItem="9YZ-aL-ojP" secondAttribute="bottom" constant="8" id="u2K-uS-JUu"/>
+                            <constraint firstItem="RUV-Bf-kxT" firstAttribute="top" secondItem="Zla-Gg-Cb5" secondAttribute="bottom" constant="4" id="z5D-vv-e3g"/>
+                            <constraint firstItem="RUV-Bf-kxT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zD7-qT-rnQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Zla-Gg-Cb5"/>
+                                <exclude reference="RUV-Bf-kxT"/>
+                                <exclude reference="Uwg-Ug-Abb"/>
+                                <exclude reference="I45-sB-veb"/>
+                                <exclude reference="ouZ-rL-nQS"/>
+                                <exclude reference="9YZ-aL-ojP"/>
+                                <exclude reference="F7a-RZ-xvh"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="OpF-xV-PaL"/>
+                                <exclude reference="YLq-Hu-e8l"/>
+                                <exclude reference="u2K-uS-JUu"/>
+                                <exclude reference="6md-oF-wuc"/>
+                                <exclude reference="7kg-sU-5iC"/>
+                                <exclude reference="dfQ-Yf-Kpm"/>
+                                <exclude reference="z5D-vv-e3g"/>
+                                <exclude reference="zD7-qT-rnQ"/>
+                                <exclude reference="Svg-MM-7MS"/>
+                                <exclude reference="T1x-af-7zN"/>
+                                <exclude reference="YWf-RQ-1mI"/>
+                                <exclude reference="daX-rU-MuQ"/>
+                                <exclude reference="sIx-HI-fVK"/>
+                                <exclude reference="2C7-Be-XHG"/>
+                                <exclude reference="BJx-j4-pO7"/>
+                                <exclude reference="BUF-ww-aBQ"/>
+                                <exclude reference="Pgg-3E-GUr"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Zla-Gg-Cb5"/>
+                                <include reference="RUV-Bf-kxT"/>
+                                <include reference="Uwg-Ug-Abb"/>
+                                <include reference="I45-sB-veb"/>
+                                <include reference="ouZ-rL-nQS"/>
+                                <include reference="9YZ-aL-ojP"/>
+                                <include reference="F7a-RZ-xvh"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OpF-xV-PaL"/>
+                                <include reference="YLq-Hu-e8l"/>
+                                <include reference="u2K-uS-JUu"/>
+                                <include reference="6md-oF-wuc"/>
+                                <include reference="7kg-sU-5iC"/>
+                                <include reference="dfQ-Yf-Kpm"/>
+                                <include reference="z5D-vv-e3g"/>
+                                <include reference="zD7-qT-rnQ"/>
+                                <include reference="Svg-MM-7MS"/>
+                                <include reference="T1x-af-7zN"/>
+                                <include reference="YWf-RQ-1mI"/>
+                                <include reference="daX-rU-MuQ"/>
+                                <include reference="sIx-HI-fVK"/>
+                                <include reference="2C7-Be-XHG"/>
+                                <include reference="BJx-j4-pO7"/>
+                                <include reference="BUF-ww-aBQ"/>
+                                <include reference="Pgg-3E-GUr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="heightTextField" destination="RUV-Bf-kxT" id="xUP-S8-dhc"/>
+                        <outlet property="outputLabel" destination="F7a-RZ-xvh" id="YWH-Aa-t09"/>
+                        <outlet property="widthTextField" destination="Zla-Gg-Cb5" id="Rgj-Xc-G3o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="42"/>
+        </scene>
+    </scenes>
+</document>

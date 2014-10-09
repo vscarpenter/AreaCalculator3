@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD75060D19E436710022F319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75060C19E436710022F319 /* AppDelegate.swift */; };
+		BD75060F19E436710022F319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75060E19E436710022F319 /* ViewController.swift */; };
+		BD75061219E436710022F319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD75061019E436710022F319 /* Main.storyboard */; };
+		BD75061419E436710022F319 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD75061319E436710022F319 /* Images.xcassets */; };
+		BD75061719E436710022F319 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD75061519E436710022F319 /* LaunchScreen.xib */; };
+		BD75062319E436710022F319 /* Area_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75062219E436710022F319 /* Area_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD75061D19E436710022F319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD7505FF19E436710022F319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD75060619E436710022F319;
+			remoteInfo = "Area Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD75060719E436710022F319 /* Area Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Area Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD75060B19E436710022F319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD75060C19E436710022F319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD75060E19E436710022F319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD75061119E436710022F319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD75061319E436710022F319 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD75061619E436710022F319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD75061C19E436710022F319 /* Area CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Area CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD75062119E436710022F319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD75062219E436710022F319 /* Area_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area_CalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD75060419E436710022F319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75061919E436710022F319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD7505FE19E436710022F319 = {
+			isa = PBXGroup;
+			children = (
+				BD75060919E436710022F319 /* Area Calculator */,
+				BD75061F19E436710022F319 /* Area CalculatorTests */,
+				BD75060819E436710022F319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD75060819E436710022F319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD75060719E436710022F319 /* Area Calculator.app */,
+				BD75061C19E436710022F319 /* Area CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD75060919E436710022F319 /* Area Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BD75060C19E436710022F319 /* AppDelegate.swift */,
+				BD75060E19E436710022F319 /* ViewController.swift */,
+				BD75061019E436710022F319 /* Main.storyboard */,
+				BD75061319E436710022F319 /* Images.xcassets */,
+				BD75061519E436710022F319 /* LaunchScreen.xib */,
+				BD75060A19E436710022F319 /* Supporting Files */,
+			);
+			path = "Area Calculator";
+			sourceTree = "<group>";
+		};
+		BD75060A19E436710022F319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD75060B19E436710022F319 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD75061F19E436710022F319 /* Area CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD75062219E436710022F319 /* Area_CalculatorTests.swift */,
+				BD75062019E436710022F319 /* Supporting Files */,
+			);
+			path = "Area CalculatorTests";
+			sourceTree = "<group>";
+		};
+		BD75062019E436710022F319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD75062119E436710022F319 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD75060619E436710022F319 /* Area Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD75062619E436710022F319 /* Build configuration list for PBXNativeTarget "Area Calculator" */;
+			buildPhases = (
+				BD75060319E436710022F319 /* Sources */,
+				BD75060419E436710022F319 /* Frameworks */,
+				BD75060519E436710022F319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Area Calculator";
+			productName = "Area Calculator";
+			productReference = BD75060719E436710022F319 /* Area Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD75061B19E436710022F319 /* Area CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD75062919E436710022F319 /* Build configuration list for PBXNativeTarget "Area CalculatorTests" */;
+			buildPhases = (
+				BD75061819E436710022F319 /* Sources */,
+				BD75061919E436710022F319 /* Frameworks */,
+				BD75061A19E436710022F319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD75061E19E436710022F319 /* PBXTargetDependency */,
+			);
+			name = "Area CalculatorTests";
+			productName = "Area CalculatorTests";
+			productReference = BD75061C19E436710022F319 /* Area CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD7505FF19E436710022F319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Paul Solt";
+				TargetAttributes = {
+					BD75060619E436710022F319 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BD75061B19E436710022F319 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BD75060619E436710022F319;
+					};
+				};
+			};
+			buildConfigurationList = BD75060219E436710022F319 /* Build configuration list for PBXProject "Area Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD7505FE19E436710022F319;
+			productRefGroup = BD75060819E436710022F319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD75060619E436710022F319 /* Area Calculator */,
+				BD75061B19E436710022F319 /* Area CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD75060519E436710022F319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD75061219E436710022F319 /* Main.storyboard in Resources */,
+				BD75061719E436710022F319 /* LaunchScreen.xib in Resources */,
+				BD75061419E436710022F319 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75061A19E436710022F319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD75060319E436710022F319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD75060F19E436710022F319 /* ViewController.swift in Sources */,
+				BD75060D19E436710022F319 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75061819E436710022F319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD75062319E436710022F319 /* Area_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD75061E19E436710022F319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD75060619E436710022F319 /* Area Calculator */;
+			targetProxy = BD75061D19E436710022F319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD75061019E436710022F319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD75061119E436710022F319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD75061519E436710022F319 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD75061619E436710022F319 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD75062419E436710022F319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD75062519E436710022F319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD75062719E436710022F319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Area Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD75062819E436710022F319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Area Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD75062A19E436710022F319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Area CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Area Calculator.app/Area Calculator";
+			};
+			name = Debug;
+		};
+		BD75062B19E436710022F319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Area CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Area Calculator.app/Area Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD75060219E436710022F319 /* Build configuration list for PBXProject "Area Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD75062419E436710022F319 /* Debug */,
+				BD75062519E436710022F319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD75062619E436710022F319 /* Build configuration list for PBXNativeTarget "Area Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD75062719E436710022F319 /* Debug */,
+				BD75062819E436710022F319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD75062919E436710022F319 /* Build configuration list for PBXNativeTarget "Area CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD75062A19E436710022F319 /* Debug */,
+				BD75062B19E436710022F319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD7505FF19E436710022F319 /* Project object */;
+}
