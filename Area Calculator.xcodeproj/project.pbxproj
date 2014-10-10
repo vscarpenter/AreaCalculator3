@@ -13,6 +13,7 @@
 		BD75061419E436710022F319 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD75061319E436710022F319 /* Images.xcassets */; };
 		BD75061719E436710022F319 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD75061519E436710022F319 /* LaunchScreen.xib */; };
 		BD75062319E436710022F319 /* Area_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75062219E436710022F319 /* Area_CalculatorTests.swift */; };
+		FB18866419E76EAB005A2025 /* katietube.png in Resources */ = {isa = PBXBuildFile; fileRef = FB18866319E76EAB005A2025 /* katietube.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BD75061C19E436710022F319 /* Area CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Area CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD75062119E436710022F319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD75062219E436710022F319 /* Area_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area_CalculatorTests.swift; sourceTree = "<group>"; };
+		FB18866319E76EAB005A2025 /* katietube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katietube.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BD75060919E436710022F319 /* Area Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				FB18866319E76EAB005A2025 /* katietube.png */,
 				BD75060C19E436710022F319 /* AppDelegate.swift */,
 				BD75060E19E436710022F319 /* ViewController.swift */,
 				BD75061019E436710022F319 /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			files = (
 				BD75061219E436710022F319 /* Main.storyboard in Resources */,
 				BD75061719E436710022F319 /* LaunchScreen.xib in Resources */,
+				FB18866419E76EAB005A2025 /* katietube.png in Resources */,
 				BD75061419E436710022F319 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				BD75062819E436710022F319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD75062919E436710022F319 /* Build configuration list for PBXNativeTarget "Area CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				BD75062B19E436710022F319 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
